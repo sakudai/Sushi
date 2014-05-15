@@ -12,7 +12,7 @@ main(void)
 		double tax;
 		holiday=100;
 		normal=90;
-		tax=1.05;
+		tax=1.08;
 			while(1){
 		printf("平日なら1を、休日なら0を入力してください：");
 		scanf("%d",&a);
@@ -33,8 +33,8 @@ main(void)
 	
 	else if(s==0){/*トリトンの場合*/
 		int m1,m2,m3,m4,m5,m6,a,b,c,d,e,f,g;
-	m1=126;	m2=136;	m3=189;
-	m4=239;	m5=330;	m6=430;
+	m1=130;	m2=140;	m3=194;
+	m4=246;	m5=339;	m6=442;
 	printf("%d円の皿数を入力してください：",m1);
 	scanf("%d",&a);
 	printf("%d円の皿数を入力してください：",m2);
